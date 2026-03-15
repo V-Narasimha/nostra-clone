@@ -1,0 +1,84 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+/* Navbar */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+}
+
+.navbar ul{
+display:flex;
+gap:30px;
+list-style:none;
+}
+
+.navbar a{
+text-decoration:none;
+color:black;
+}
+
+/* Contact Section */
+
+.contact-container{
+width:70%;
+margin:40px auto;
+background:#1f2937;
+color:white;
+padding:40px;
+border-radius:10px;
+}
+
+.contact-container h2{
+margin-bottom:20px;
+}
+
+.contact-container label{
+display:block;
+margin-top:20px;
+margin-bottom:5px;
+}
+
+.contact-container input,
+.contact-container textarea{
+width:100%;
+padding:15px;
+border-radius:5px;
+border:none;
+}
+
+.contact-container button{
+margin-top:20px;
+padding:10px 20px;
+background:#2563eb;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+.contact-container button:hover{
+background:#1d4ed8;
+}
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    padding: 30px;
+}
+.footer {
+    font-size: 2vw;
+    margin-top: 5vw;
+    padding: 40px;
+    background-color: #1D232C;
+    color: #E2E1E1;
+    box-sizing: border-box;
+}
